@@ -29,16 +29,16 @@ position:relative;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 
 }
 .chapters-card{
     background-color: var(--color-card);
     margin: 90px auto;
-    width: 400px;
+    width: 500px;
     height: 220px;
     border-radius: 10px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 
 }
