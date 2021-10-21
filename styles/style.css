@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+}
+:root{
+    --color-fondo: rgb(32, 35, 41);
+    --color-card:rgb(60, 62, 68);
+}
+.head{
+    height: 40vh;
+    /* border: 2px solid black; */
+}
+.title{
+
+position:relative;
+    font-size: 6rem;
+    text-align: center;
+    top: 100px;
+        /* border: 2px solid red; */
+
+}
+.content{
+    height: 100vh;
+    background-color:var(--color-fondo);
+}
+.chapters-grid{
+    margin: 0 auto;
+    width: 75%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid red;
+
+
+}
+.chapters-card{
+    background-color: var(--color-card);
+    margin: 90px auto;
+    width: 400px;
+    height: 220px;
+    border-radius: 10px;
+    border: 2px solid white;
+
+}
