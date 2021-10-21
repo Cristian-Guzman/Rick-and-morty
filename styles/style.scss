@@ -1,0 +1,102 @@
+// Agregando las variables
+$negro: rgb(32, 35, 41);
+$grisOscuro: rgb(36, 40, 47);
+$grisClaro: rgb(60, 62, 68);
+$rojo: rgb(214, 61, 46);
+$verde: rgb(85, 202, 68);
+$blanco: rgb(245, 245, 245);
+$fontPrincipal: 'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial','sans-serif','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: $fontPrincipal;
+}
+
+header {
+    background-color: $blanco;
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 2rem;
+        .logo {
+            padding: 2.5rem;
+            background-color: $grisOscuro;        
+            border-radius: 50%;
+        }
+        .navegacion {
+            display: flex;
+            gap: 2rem;
+            a {
+                font-size: 2rem;
+                text-decoration: none;
+                color: $negro;
+            }
+        }
+    }
+}
+.hero {
+    max-height: 60rem;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .titulo-principal {
+        color: $negro;
+        font-size: 5rem;
+        font-weight: 900;
+    }
+}
+
+/* Empiezan los estilos del main */
+.main {
+    background-color: $grisOscuro;
+    min-height: 50vh;
+    padding: 4.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    article {
+        width: 60rem;
+        height: 22rem;
+        display: flex;
+        overflow: hidden;
+        background: $grisClaro;
+        border-radius: 0.5rem;
+    }
+}
+.card {
+    width: auto;
+    margin: 0 3rem;
+    &__info {
+        margin: 0 2.5rem;
+    }
+    &__img {
+        flex: 2 1 0;
+        width: 100%;
+        img {
+            width: inherit;
+        } 
+    }
+    &__info {
+        flex: 3 1 0;
+        margin-left: 2rem;
+    }
+    &__titulo {
+        color: $blanco;
+        font-size: 2.7rem;
+        font-weight: 700;
+    }
+    &__estado {
+        font-size: 1.6rem;
+        color: $blanco;
+    }
+    &__blanco {
+        font-size: 1.8rem;
+        color: $blanco;
+    }
+    &__gris {
+        font-size: 1.6rem;
+        color: #9E9E9E;
+    }
+}

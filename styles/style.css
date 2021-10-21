@@ -1,0 +1,134 @@
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica", "Arial", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+header {
+  background-color: whitesmoke;
+}
+
+header .barra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 2rem;
+}
+
+header .barra .logo {
+  padding: 2.5rem;
+  background-color: #24282f;
+  border-radius: 50%;
+}
+
+header .barra .navegacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+}
+
+header .barra .navegacion a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #202329;
+}
+
+.hero {
+  max-height: 60rem;
+  height: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .titulo-principal {
+  color: #202329;
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+/* Empiezan los estilos del main */
+.main {
+  background-color: #24282f;
+  min-height: 50vh;
+  padding: 4.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main article {
+  width: 60rem;
+  height: 22rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  background: #3c3e44;
+  border-radius: 0.5rem;
+}
+
+.card {
+  width: auto;
+  margin: 0 3rem;
+}
+
+.card__info {
+  margin: 0 2.5rem;
+}
+
+.card__img {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 0px;
+          flex: 2 1 0;
+  width: 100%;
+}
+
+.card__img img {
+  width: inherit;
+}
+
+.card__info {
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 0px;
+          flex: 3 1 0;
+  margin-left: 2rem;
+}
+
+.card__titulo {
+  color: whitesmoke;
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+
+.card__estado {
+  font-size: 1.6rem;
+  color: whitesmoke;
+}
+
+.card__blanco {
+  font-size: 1.8rem;
+  color: whitesmoke;
+}
+
+.card__gris {
+  font-size: 1.6rem;
+  color: #9E9E9E;
+}
+/*# sourceMappingURL=style.css.map */
